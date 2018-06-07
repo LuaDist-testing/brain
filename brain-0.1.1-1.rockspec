@@ -1,9 +1,18 @@
-package = "brain"
-version = "scm-1"
+-- This file was automatically generated for the LuaDist project.
 
+package = "brain"
+version = "0.1.1-1"
+
+-- LuaDist source
 source = {
-    url = "git://github.com/darkstalker/lua_brain.git",
+  tag = "0.1.1-1",
+  url = "git://github.com/LuaDist-testing/brain.git"
 }
+-- Original source
+-- source = {
+--     url = "git://github.com/darkstalker/lua_brain.git",
+--     tag = "0.1.1",
+-- }
 
 description = {
     summary = "Chat bot engine based on Markov chains",

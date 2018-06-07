@@ -1,18 +1,10 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "brain"
-version = "0.1.0-1"
+version = "0.1.1-1"
 
--- LuaDist source
 source = {
-  tag = "0.1.0-1",
-  url = "git://github.com/LuaDist-testing/brain.git"
+    url = "git://github.com/darkstalker/lua_brain.git",
+    tag = "0.1.1",
 }
--- Original source
--- source = {
---     url = "git://github.com/darkstalker/lua_brain.git",
---     tag = "0.1.0",
--- }
 
 description = {
     summary = "Chat bot engine based on Markov chains",
@@ -27,7 +19,7 @@ description = {
 dependencies = {
     "lua >= 5.1",
     "lsqlite3 >= 0.9.3",
-    "utf8 >= 1.1",
+    "luautf8 >= 0.1.0",
 }
 
 build = {
