@@ -1,0 +1,9 @@
+project = "lua_brain"
+title = "lua_brain reference"
+description = "lua_brain library"
+backtick_references = true
+file = "src"
+format = "markdown"
+plain = true
+readme = "README.md"
+examples = { "examples" }
